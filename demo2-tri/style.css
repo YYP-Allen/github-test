@@ -1,0 +1,50 @@
+.tri1{
+  margin: 0 0 14px 0;
+  width: 0;
+  height: 0;
+  border: 28px solid;
+  border-color: blue yellow green red;
+}
+.tri2{
+  margin: 14px 0 29px 0;
+  width: 0;
+  height: 0;
+  border: 28px solid;
+  border-color: blue transparent transparent;
+}
+.tri3{
+  margin: 29px 0 14px 0;
+  width: 0;
+  height: 0;
+  border: 28px solid;
+  border-color: transparent transparent transparent red;
+}
+.tri4{
+  margin: 14px 0 29px 0;
+  width: 0;
+  height: 0;
+  border: 28px solid;
+  border-color: transparent yellow transparent transparent;
+  
+}
+.tri5{
+  margin: 29px 0 14px 0;
+  width: 0;
+  height: 0;
+  border: 28px solid;
+  border-color: transparent transparent green transparent ;
+}
+.tri6{
+  margin: 14px 0 14px 0;
+  width: 0;
+  height: 0;
+  border: 14px solid;
+  border-color: transparent transparent red red ;
+}
+.tri7{
+  margin: 14px 0 0;
+  width: 0;
+  height: 0;
+  border: 14px solid;
+  border-color: transparent red red transparent ;
+}
