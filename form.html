@@ -7,14 +7,14 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="/xxx" method="post">
+  <form action="/github/allen" method="post">
     <div>
       <label for="username">姓名 ：</label>
-      <input type="text" name="username" placeholder="请输入用户名">
+      <input id="username" type="text" name="username" placeholder="请输入用户名">
     </div>
     <div>
       <label for="password" >密码 ：</label>
-      <input type="password" name="password">
+      <input id="password" type="password" name="password">
     </div>
     <div>
       <label>性别 ：</label>
@@ -38,8 +38,11 @@
         <option value="oppo" selected>oppo</option>
       </select>
     </div>
+    <input type="hidden" name="csrf" value="345623fdsd">
+    <!-- 点击提交在Network可以看到name："csrf" value："345623fdsd"-->
     <input type="submit" value="提交">
     <input type="button" value="提交">
+    <!-- button不能提交信息 -->
     <button>提交</button>
   </form>
 </body>
