@@ -41,8 +41,9 @@
     <input type="hidden" name="csrf" value="345623fdsd">
     <!-- 点击提交在Network可以看到name："csrf" value："345623fdsd"-->
     <input type="submit" value="提交">
+    <!-- <input>的type的值为button不能提交信息 -->
     <input type="button" value="提交">
-    <!-- button不能提交信息 -->
+    <!-- <button>的type的值为button不能提交信息，为type="submit"则可以提交，不设定type的类型值，则默认为type="submit" -->
     <button>提交</button>
   </form>
 </body>
