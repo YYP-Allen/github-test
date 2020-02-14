@@ -33,17 +33,30 @@
     </div>
     <div>
       <select name="name">
+<<<<<<< HEAD
         <option value="xiaomi">华为</option>
         <option value="huawei">小米</option>
         <option ></option>oppo</option>
+=======
+        <option value="huawei">华为</option>
+        <option value="xiaomi">小米</option>
+        <option value="oppo" selected>oppo</option>
+>>>>>>> 8fd89c8f232d1f7cbc00f1a99b3c00c4115ebe52
       </select>
     </div>
     <input type="hidden" name="csrf" value="345623fdsd">
     <!-- 点击提交在Network可以看到name："csrf" value："345623fdsd"-->
+<<<<<<< HEAD
     <input type="submit" value="提交">提交
     <input type="button" value="提交">
     <!-- button不能提交信息 -->
     <input type="reset" value="reset">
+=======
+    <input type="submit" value="提交">
+    <!-- <input>的type的值为button不能提交信息 -->
+    <input type="button" value="提交">
+    <!-- <button>的type的值为button不能提交信息，为type="submit"则可以提交，不设定type的类型值，则默认为type="submit" -->
+>>>>>>> 8fd89c8f232d1f7cbc00f1a99b3c00c4115ebe52
     <button>提交</button>
     <input type="file" accept="image/png, image/jpeg">
   </form>
